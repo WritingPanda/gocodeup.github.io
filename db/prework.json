@@ -1,0 +1,49 @@
+[
+	{
+		"name": "LAMP+J",
+		"slug": "lampj",
+		"modules": [
+			{
+				"name": "Programming Fundamentals",
+				"slug": "programming_fundamentals",
+				"description": "You have to start somewhere, and programming fundamentals seems like a good place.",
+				"checkpoints": [
+					{
+						"name": "HTTP",
+						"slug": "http",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "DNS",
+						"slug": "dns",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
+				"name": "Git and GitHub",
+				"slug": "git_github",
+				"description": "Learn about version control using Git and GitHub.",
+				"checkpoints": [
+					{
+						"name": "Git Intro",
+						"slug": "http",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
+				"name": "Command Line / Terminal",
+				"slug": "terminal",
+				"description": "Good programmers must know their way around the command line. Learn about it here.",
+				"checkpoints": [
+					{
+						"name": "HTTP",
+						"slug": "http",
+						"view": "/md/sample.md"
+					}
+				]
+			}
+		]
+	}
+]

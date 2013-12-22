@@ -1,0 +1,59 @@
+<ol class="breadcrumb clearfix" style="line-height:35px;">
+  <li><a href="#/prework/{{ course.slug }}">{{ course.name }}</a></li>
+  <li><a href="#/prework/{{ course.slug }}/{{ module.slug }}">{{ module.name }}</a></li>
+  <div class="btn-group pull-right">
+    <button type="button" class="btn btn-default btn-mini dropdown-toggle" data-toggle="dropdown">
+      Jump to Checkpoint <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li ng-repeat="checkpoint in module.checkpoints">
+        <a href="" ng-click="jumpToCheckpoint($index)">
+          <i class="fa fa-flag-checkered pull-right"
+           ng-show="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1">
+        </i>
+          {{ checkpoint.name }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</ol>
+
+
+
+<p class="lead" style="padding-left:5px;">{{ module.description }}</p>
+
+<div id="{{ checkpoint.slug }}" ng-repeat="checkpoint in module.checkpoints" ng-show="$index == cpIndex">
+  <div class="page-header">
+    <h1>
+      <i class="fa fa-flag-o pull-right"
+         style="cursor:pointer;margin-right:19px;"
+         ng-hide="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1"
+         ng-click="toggleCheckpoint(checkpoint)">
+      </i>
+      <i class="fa fa-flag-checkered pull-right"
+         style="cursor:pointer;margin-right:19px;"
+         ng-show="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1"
+         ng-click="toggleCheckpoint(checkpoint)">
+      </i>
+      {{ $index + 1 }} // {{ checkpoint.name }}
+    </h1>
+  </div>
+  <div style="margin-bottom:30px;">
+    <markdown src="{{ checkpoint.view }}">
+  </div>
+  <div class="well clearfix">
+    <i class="fa fa-flag-o pull-right"
+       style="cursor:pointer;font-size:36px;"
+       ng-hide="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1"
+       ng-click="toggleCheckpoint(checkpoint)">
+    </i>
+    <i class="fa fa-flag-checkered pull-right"
+       style="cursor:pointer;font-size:36px;"
+       ng-show="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1"
+       ng-click="toggleCheckpoint(checkpoint)">
+    </i>
+    <button class="btn btn-primary pull-left" ng-show="$index != 0" ng-click="prev()">Previous</button>
+    <button class="btn btn-primary pull-right" ng-show="$index != (module.checkpoints.length - 1)"  ng-click="next()">Next</button>
+    <button class="btn btn-success pull-right" ng-show="$index == (module.checkpoints.length - 1)"  ng-click="finish()">Finish</button>
+  </div>
+</div>

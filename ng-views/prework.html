@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1>Codeup {{ course.name }} Pre-work</h1>
+  <p>The modules and checkpoints found here will prepare you for the Codeup {{ course.name }} class. Please complete all modules and turn in deliverables prior to the start of your class. Check with your instructors for due dates.</p>
+  <p>You are currently <strong>{{ completionPercentage }}%</strong> complete.</p>
+  <p><button class="btn btn-danger btn-small" ng-click="clearPreworkProgress()">Clear Progress</button>
+</div>
+      
+<div class="list-group">
+  <a ng-repeat="module in course.modules" href="#/prework/{{ course.slug }}/{{ module.slug }}" class="list-group-item">
+    <span class="badge">
+      {{ getCompletedCheckpointCountForModule(course.modules[$index]) }} / {{ module.checkpoints.length }}
+    </span>
+    <h4 class="list-group-item-heading">{{ module.name }}</h4>
+    <p class="list-group-item-text">{{ module.description }}</p>
+  </a>
+</div>
