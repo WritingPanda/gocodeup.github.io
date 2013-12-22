@@ -7,7 +7,9 @@
       
 <div class="list-group">
   <a ng-repeat="module in course.modules" href="#/prework/{{ course.slug }}/{{ module.slug }}" class="list-group-item">
-    <span class="badge">
+    <span
+      class="badge" 
+      ng-class="{'badge-success': (getCompletedCheckpointCountForModule(course.modules[$index]) == module.checkpoints.length) }">
       {{ getCompletedCheckpointCountForModule(course.modules[$index]) }} / {{ module.checkpoints.length }}
     </span>
     <h4 class="list-group-item-heading">{{ module.name }}</h4>
