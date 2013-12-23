@@ -4,18 +4,60 @@
 		"slug": "lampj",
 		"modules": [
 			{
-				"name": "Programming Fundamentals",
-				"slug": "programming_fundamentals",
-				"description": "You have to start somewhere, and programming fundamentals seems like a good place.",
+				"name": "Prerequisites",
+				"slug": "prerequisites",
+				"description": "Before you start programming, it would be helpful to understand some of the building blocks of computers and networks.",
 				"checkpoints": [
 					{
-						"name": "HTTP",
-						"slug": "http",
-						"view": "/md/sample.md"
+						"name": "Number Systems",
+						"slug": "number_systems",
+						"view": "/md/lampj/prerequisites/number_systems.md"
 					},
 					{
-						"name": "DNS",
-						"slug": "dns",
+						"name": "Bits, Bytes, and Data Types",
+						"slug": "bits_bytes",
+						"view": "/md/lampj/prerequisites/bits_bytes.md"
+					},
+					{
+						"name": "Boolean Logic",
+						"slug": "boolean_logic",
+						"view": "/md/lampj/prerequisites/boolean_logic.md"
+					},
+					{
+						"name": "Variables and Constants",
+						"slug": "variables",
+						"view": "/md/lampj/prerequisites/variables.md"
+					},
+					{
+						"name": "Programming Languages",
+						"slug": "programming_languages",
+						"view": "/md/lampj/prerequisites/programming_languages.md"
+					},
+					{
+						"name": "Operating Systems",
+						"slug": "operating_systems",
+						"view": "/md/lampj/prerequisites/operating_systems.md"
+					},
+					{
+						"name": "How the Web Works",
+						"slug": "how_the_web_works",
+						"view": "/md/lampj/prerequisites/how_the_web_works.md"
+					},
+					{
+						"name": "LAMP Stack Intro",
+						"slug": "lamp_stack_intro",
+						"view": "/md/lampj/prerequisites/lamp_stack_intro.md"
+					}
+				]
+			},
+			{
+				"name": "Command Line / Terminal",
+				"slug": "terminal",
+				"description": "Good programmers must know their way around the command line.",
+				"checkpoints": [
+					{
+						"name": "Terminal Intro",
+						"slug": "terminal_intro",
 						"view": "/md/sample.md"
 					}
 				]
@@ -27,19 +69,55 @@
 				"checkpoints": [
 					{
 						"name": "Git Intro",
-						"slug": "http",
+						"slug": "git_intro",
 						"view": "/md/sample.md"
 					}
 				]
 			},
 			{
-				"name": "Command Line / Terminal",
-				"slug": "terminal",
-				"description": "Good programmers must know their way around the command line. Learn about it here.",
+				"name": "Getting Started with HTML/CSS",
+				"slug": "html_css",
+				"description": "HTML and CSS are the building blocks of basic web pages.",
 				"checkpoints": [
 					{
-						"name": "HTTP",
-						"slug": "http",
+						"name": "HTML/CSS Intro",
+						"slug": "html_css_intro",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
+				"name": "Getting Started with PHP",
+				"slug": "php",
+				"description": "PHP allows you to build dynamic websites.",
+				"checkpoints": [
+					{
+						"name": "PHP Intro",
+						"slug": "php_intro",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
+				"name": "Getting Started with MySQL",
+				"slug": "mysql",
+				"description": "MySQL allows you to store and retrive data for your website.",
+				"checkpoints": [
+					{
+						"name": "MySQL Intro",
+						"slug": "mysql_intro",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
+				"name": "Getting Started with JavaScript",
+				"slug": "javascript",
+				"description": "JavaScript will enable you to create a rich user experience.",
+				"checkpoints": [
+					{
+						"name": "JavaScript Intro",
+						"slug": "javascript_intro",
 						"view": "/md/sample.md"
 					}
 				]

@@ -11,7 +11,7 @@
           <i class="fa fa-flag-checkered pull-right"
            ng-show="preworkProgress[course.slug][module.slug][checkpoint.slug] == 1">
         </i>
-          {{ checkpoint.name }}
+          {{ $index + 1 }} // {{ checkpoint.name }}
         </a>
       </li>
     </ul>
