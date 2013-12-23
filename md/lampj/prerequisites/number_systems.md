@@ -24,7 +24,7 @@ We will use `1111011` as an example of a binary number. Believe it or not, in de
 1 * 2^0 + 1 * 2^1 + 0 * 2^2 + 1 * 2^3 + 1 * 2^4 + 1 * 2^5 + 1 * 2^6 = 123
 ```
 
-For more reading on the decimal system, go here:
+For more reading on the binary system, go here:
 
 [http://en.wikipedia.org/wiki/Binary_number](http://en.wikipedia.org/wiki/Binary_number)
 

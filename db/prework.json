@@ -51,6 +51,43 @@
 				]
 			},
 			{
+				"name": "Required Software and Installation",
+				"slug": "software_install",
+				"description": "You need to install and configure several applications on your computer.",
+				"checkpoints": [
+					{
+						"name": "Web Browser",
+						"slug": "web_browser",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "Improved Console",
+						"slug": "console",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "Text Editors",
+						"slug": "text_editors",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "Git Tools",
+						"slug": "git",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "Web Server, Database Server, and PHP",
+						"slug": "mamp",
+						"view": "/md/sample.md"
+					},
+					{
+						"name": "Database Tools",
+						"slug": "console",
+						"view": "/md/sample.md"
+					}
+				]
+			},
+			{
 				"name": "Command Line / Terminal",
 				"slug": "terminal",
 				"description": "Good programmers must know their way around the command line.",
@@ -87,6 +124,23 @@
 				]
 			},
 			{
+				"name": "Getting Started with JavaScript",
+				"slug": "javascript",
+				"description": "JavaScript will enable you to create a rich user experience.",
+				"checkpoints": [
+					{
+						"name": "JavaScript Intro",
+						"slug": "javascript_intro",
+						"view": "/md/lampj/javascript/javascript_intro.md"
+					},
+					{
+						"name": "Online Lessons",
+						"slug": "javascript_lessons",
+						"view": "/md/lampj/javascript/javascript_lessons.md"
+					}
+				]
+			},
+			{
 				"name": "Getting Started with PHP",
 				"slug": "php",
 				"description": "PHP allows you to build dynamic websites.",
@@ -106,18 +160,6 @@
 					{
 						"name": "MySQL Intro",
 						"slug": "mysql_intro",
-						"view": "/md/sample.md"
-					}
-				]
-			},
-			{
-				"name": "Getting Started with JavaScript",
-				"slug": "javascript",
-				"description": "JavaScript will enable you to create a rich user experience.",
-				"checkpoints": [
-					{
-						"name": "JavaScript Intro",
-						"slug": "javascript_intro",
 						"view": "/md/sample.md"
 					}
 				]
