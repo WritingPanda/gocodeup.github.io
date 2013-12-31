@@ -95,7 +95,7 @@
 					{
 						"name": "Terminal Intro",
 						"slug": "terminal_intro",
-						"view": "/md/sample.md"
+						"view": "/md/lampj/terminal/intro.md"
 					}
 				]
 			},
@@ -107,7 +107,7 @@
 					{
 						"name": "Git Intro",
 						"slug": "git_intro",
-						"view": "/md/sample.md"
+						"view": "/md/lampj/git/intro.md"
 					}
 				]
 			},
@@ -119,7 +119,7 @@
 					{
 						"name": "HTML/CSS Intro",
 						"slug": "html_css_intro",
-						"view": "/md/sample.md"
+						"view": "/md/lampj/htmlcss/intro.md"
 					}
 				]
 			},
@@ -148,7 +148,7 @@
 					{
 						"name": "PHP Intro",
 						"slug": "php_intro",
-						"view": "/md/sample.md"
+						"view": "/md/lampj/php/intro.md"
 					}
 				]
 			},
@@ -160,7 +160,7 @@
 					{
 						"name": "MySQL Intro",
 						"slug": "mysql_intro",
-						"view": "/md/sample.md"
+						"view": "/md/lampj/mysql/intro.md"
 					}
 				]
 			}
