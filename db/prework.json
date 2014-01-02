@@ -51,43 +51,6 @@
 				]
 			},
 			{
-				"name": "Required Software and Installation",
-				"slug": "software_install",
-				"description": "You need to install and configure several applications on your computer.",
-				"checkpoints": [
-					{
-						"name": "Web Browser",
-						"slug": "web_browser",
-						"view": "/md/sample.md"
-					},
-					{
-						"name": "Improved Console",
-						"slug": "console",
-						"view": "/md/sample.md"
-					},
-					{
-						"name": "Text Editors",
-						"slug": "text_editors",
-						"view": "/md/sample.md"
-					},
-					{
-						"name": "Git Tools",
-						"slug": "git",
-						"view": "/md/sample.md"
-					},
-					{
-						"name": "Web Server, Database Server, and PHP",
-						"slug": "mamp",
-						"view": "/md/sample.md"
-					},
-					{
-						"name": "Database Tools",
-						"slug": "console",
-						"view": "/md/sample.md"
-					}
-				]
-			},
-			{
 				"name": "Command Line / Terminal",
 				"slug": "terminal",
 				"description": "Good programmers must know their way around the command line.",
