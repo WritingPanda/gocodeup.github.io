@@ -12,7 +12,7 @@ Git is a version control tool that is very popular in the open source software c
 
 GitHub is an online service that manages Git repositories. As a student of the LAMP+J class, you will need your own GitHub account. Work completed in the course will be "checked-in" to Git repositories in your account.
 
-First, you will need to create a GitHub account.
+First, you will need to create a GitHub account. When creating your account, you may choose any username you'd like, but please use your real name and make sure to upload a recent headshot of yourself as your profile image. Once class starts, you will login to the Codeup learning system using your GitHub account and it is important that we can easily identify who you are.
 
 [https://github.com/join](https://github.com/join)
 
