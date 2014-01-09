@@ -8,7 +8,7 @@ Pretty cryptic stuff, right? You can actually write programs using the processor
 
 ### Low vs High Level Languages
 
-When you get into programming, you may hear terms like "high level language" or "low level language". Just remember that the closer you are to writing machine code using the processor instruction set, the lower the level of the language is. For example, Assembly language is a very low level language and it often has a one-to-one mapping with the processor instruction set. The lower the level, the more granular the control you have over how things work, and the more performant you can make your software.
+When you get into programming, you may hear terms like "high level language" or "low level language". Just remember that the closer you are to writing machine code using the processor instruction set, the lower the level of the language is. For example, Assembly language is a very low level language and it often has a one-to-one mapping with the processor instruction set. The lower the level, the more granular the control you have over how things work, which in turn offers opportunities to improve the performance of your code.
 
 As you get into high level languages like C#, Java, PHP, Ruby, JavaScript, etc., you will find that programming gets much easier. There are lots of layers below your code that provide helpers and support functionality. Occasionally, you may find a need to optimize a particular part of your code by stepping down to a lower level language, but for standard web applications this is almost never the case.
 
@@ -18,7 +18,7 @@ Code will sometimes go through a step called "compilation" prior to being run. O
 
 The line between code requiring a compiler vs an interpreter were easier to draw in times past (based on programming language), but nowadays you will find that the same language may be interpreted OR compiled, depending upon the implementation. Don't worry, you really just need to understand the terms and know that they are different.
 
-Another useful bit is that when you compile code, you generally compile it for a certain computer architecture and operating system. There are always exceptions though. In the case of a language like Java, the code is compile to something called intermediate language. The intermediate language is then run in a VM (virtual machine), and the VM has to be compiled specifically for each platform it runs on.
+Another useful bit is that when you compile code, you generally compile it for a certain computer architecture and operating system. There are always exceptions, though. In the case of a language like Java, the code is compiled to something called intermediate language. The intermediate language is then run in a VM (virtual machine), and the VM has to be compiled specifically for each platform it runs on.
 
 Read more about compiled and interpreted languages here:
 

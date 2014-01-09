@@ -14,7 +14,7 @@ Let's take the following example:
 
 Seems simple enough. Based on a true or false value, whether or not it is dark, we will make a decision and take action. We can take this a little further and say:
 
-> If it is dark, then turn on the street light, otherwise turn off the street light.
+> If it is dark, then turn on the street light. Otherwise turn off the street light.
 
 Here, will take action whether it is dark or not.
 
@@ -77,7 +77,7 @@ or       ||
 not      !
 ```
 
-Some languages simply use the words `and`, `or`, and `not`. Some support both the symbols shown above and the words. Be careful though, when both are supported they sometimes don't act the same because of the something called operator precedence. Now that you know the terminology though, it will be easy to google "operator precedence" or "logical operators" for the language you are working with to see just want you need to do.
+Some languages simply use the words `and`, `or`, and `not`. Some support both the symbols shown above and the words. Be careful though, when both are supported they sometimes don't act the same because of something called operator precedence. Now that you know the terminology though, it will be easy to google "operator precedence" or "logical operators" for the language you are working with to see just want you need to do.
 
 ### Comparison Operators
 
@@ -89,7 +89,7 @@ not equal to                !=
 greater than                >
 less than                   <
 greater than or equal to    >=
-less than or equal to       >=
+less than or equal to       <=
 ```
 
 There are others, but we will get to them later. Also, remember that these differ between languages, so just google "comparison operators" for the language you are using to find the list. Even seasoned programmers have to do this from time to time when learning a new language or switching between many different languages on assignments.

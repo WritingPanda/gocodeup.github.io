@@ -10,15 +10,15 @@ Read more about bits here: [http://en.wikipedia.org/wiki/Bit](http://en.wikipedi
 
 ## What is a Byte?
 
-A byte is a group of bits. Although the number of bits in a byte can be different depending on the computing platform, generally, there are 8 bits in a byte. Without getting too technical, memory in computer systems is addressed down to the byte level. A computer address is similar to your home address, it gives you an easy way to find something.
+A byte is a group of bits. Although the number of bits in a byte can be different depending on the computing platform, generally, there are 8 bits in a byte. Without getting too technical, memory in computer systems is addressed down to the byte level. A computer address is similar to your home address; it gives you an easy way to find something.
 
-So how much can a byte store you ask? Well, since a byte is 8 bits, it can hold `2^8` different values, meaning if can hold from the decimal number `0` to `255`. Notice that `255` is one less than `2^8`, because `0` counts as a value.
+So how much can a byte store you ask? Well, since a byte is 8 bits, it can hold `2^8` different values, meaning it can hold from the decimal number `0` to `255`. Notice that `255` is one less than `2^8`, because `0` counts as a value.
 
 Read more about bytes here: [http://en.wikipedia.org/wiki/Byte](http://en.wikipedia.org/wiki/Byte)
 
 ## Let's talk about Data Types
 
-Although the term data type is pretty self explanatory, it is very important in computing because it gives us vital information about what kind and how much data can be stored.
+Data types are important in computing because they give us vital information about what kind and how much data can be stored.
 
 Here are some basic data types used in computing:
 
@@ -44,13 +44,13 @@ Here are some example integers:
 
 As mentioned above, the number of values an integer can store varies, but integers generally hold up to 32 bits of data. This can be represented as `2^32` or `4,294,967,296` different values. 
 
-Remember how talked about signed an unsigned integers? An unsigned (positive only) 32 bit integer can hold anything from `0` all the way up to `4,294,967,295`.
+Remember how talked about signed and unsigned integers? An unsigned (positive only) 32 bit integer can hold anything from `0` all the way up to `4,294,967,295`.
 
 What if we want to be able to store a negative number? Well, that requires a sign `+ or -`, which we have to store somewhere. Since the sign can be one of two values, that can be stored in one bit. In a 32 bit signed (positive or negative) integer, the sign takes up one bit, which leaves 31 bits to store the number. `2^31` is equal to `2,147,483,648`. This means that our 32 bit signed integer can hold any number from `-2,147,483,648` to `2,147,483,647`. Notice that on the positive side we get one less value? Don't forget, zero is a value and counts toward the positive side.
 
 ### Booleans
 
-Fortunately, booleans are quite simple. They can hold one of two values, 0 or 1, where 0 means false and 1 means true. Booleans are used in computer logic, which we will get to soon.
+Fortunately, booleans are quite simple. They can hold one of two values, 0 or 1, where 0 means false and 1 means true. Booleans are used in computer logic, which we will get to in the section called Boolean Logic.
 
 ### Characters
 
@@ -74,7 +74,7 @@ Here are some examples of floating-point numbers:
 3.145, 0.5, -128.0, 2E-5
 ```
 
-The last floating-point number in the example is the computer's representation of scientific notation. If you need a refresher, go here: [http://en.wikipedia.org/wiki/Scientific_notation](http://en.wikipedia.org/wiki/Scientific_notation)
+The last floating-point number in the example is the computer's representation of scientific notation. An upper or lower case 'E' is used to represent "times 10 raised to the power of". If you need a refresher on scientific notation, go here: [http://en.wikipedia.org/wiki/Scientific_notation](http://en.wikipedia.org/wiki/Scientific_notation)
 
 ### Character Strings
 
@@ -87,4 +87,3 @@ A buffer overflow occurs when you try to store a value in a data type that is to
 Read more about buffer overflow here: [http://en.wikipedia.org/wiki/Buffer_overflow](http://en.wikipedia.org/wiki/Buffer_overflow)
 
 If you were wondering how stackoverflow.com got it's name, now you know.
-
