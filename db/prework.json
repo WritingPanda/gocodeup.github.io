@@ -126,6 +126,18 @@
 						"view": "/md/lampj/mysql/intro.md"
 					}
 				]
+			},
+			{
+				"name": "** Required Software **",
+				"slug": "lampj_required_software",
+				"description": "Be prepared for class by getting all of the software dependencies set up on your Mac.",
+				"checkpoints": [
+					{
+						"name": "LAMP+J Required Software",
+						"slug": "lampj_required_software_Summary",
+						"view": "/md/lampj/required-software/summary.md"
+					}
+				]
 			}
 		]
 	}
