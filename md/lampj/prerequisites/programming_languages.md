@@ -43,3 +43,7 @@ More than you ever want or need to know. Check out this list:
 [http://en.wikipedia.org/wiki/List_of_programming_languages](http://en.wikipedia.org/wiki/List_of_programming_languages)
 
 Seeing that list should make you feel good about choosing a school like Codeup to help you get on the right track learning just the things you need to know to build real software that solves real problems.
+
+### Programming Methodologies
+
+As you now know, there are a lot of programming languages out there. There are also a number of different programming methodologies. One methodology that is certainly worth knowing about is Agile development. Read about it here: [http://en.wikipedia.org/wiki/Agile_software_development](http://en.wikipedia.org/wiki/Agile_software_development)
