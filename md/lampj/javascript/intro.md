@@ -10,8 +10,8 @@ You learned about the DOM (Document Object Model) in your HTML lessons. JavaScri
 
 Please complete the following 6 hour video course on JavaScript fundamentals
 
-- https://tutsplus.com/course/javascript-fundamentals/
+- [https://tutsplus.com/course/javascript-fundamentals/](https://tutsplus.com/course/javascript-fundamentals/)
 
 Please complete the following 8 hour video course on jQuery fundamentals
 
-- https://tutsplus.com/course/30-days-to-learn-jquery/
+- [https://tutsplus.com/course/30-days-to-learn-jquery/](https://tutsplus.com/course/30-days-to-learn-jquery/)
