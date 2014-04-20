@@ -82,8 +82,3 @@ When you reach this point, please verify you have a file called `quantal64.box`,
 ## Help and Troubleshooting
 
 If you are a Codeup student and have any questions or need assistance getting the necessary software installed, please contact us. It is very important that your computer is ready to go with all that is needed for class so we don't waste precious teaching time. Thanks!
-
-
-
-
-

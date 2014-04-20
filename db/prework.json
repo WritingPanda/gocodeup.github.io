@@ -94,36 +94,19 @@
 					{
 						"name": "JavaScript Intro",
 						"slug": "javascript_intro",
-						"view": "/md/lampj/javascript/javascript_intro.md"
-					},
-					{
-						"name": "Online Lessons",
-						"slug": "javascript_lessons",
-						"view": "/md/lampj/javascript/javascript_lessons.md"
+						"view": "/md/lampj/javascript/intro.md"
 					}
 				]
 			},
 			{
-				"name": "Getting Started with PHP",
-				"slug": "php",
-				"description": "PHP allows you to build dynamic websites.",
+				"name": "Getting Started with PHP and MySQL",
+				"slug": "php-mysql",
+				"description": "PHP and MySQL allow you to build dynamic websites.",
 				"checkpoints": [
 					{
-						"name": "PHP Intro",
-						"slug": "php_intro",
-						"view": "/md/lampj/php/intro.md"
-					}
-				]
-			},
-			{
-				"name": "Getting Started with MySQL",
-				"slug": "mysql",
-				"description": "MySQL allows you to store and retrive data for your website.",
-				"checkpoints": [
-					{
-						"name": "MySQL Intro",
-						"slug": "mysql_intro",
-						"view": "/md/lampj/mysql/intro.md"
+						"name": "PHP and MySQL Intro",
+						"slug": "php_mysql_intro",
+						"view": "/md/lampj/php-mysql/intro.md"
 					}
 				]
 			},

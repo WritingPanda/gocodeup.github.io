@@ -2,10 +2,14 @@
 
 To be an effective programmer, you will need to know your way around the command line. In OSX, there is an application called "Terminal" that will allow you to access the command line on your Mac.
 
-### Online Learning Resources
+## Download and Install iTerm2
 
-Please use the following resources to become familiar with the OSX command line tools.
+iTerm2 is an alternative to the standard terminal application that comes with OSX. We will be using iTerm2 throught the course so we recommend that you download and install it now.
 
-- [http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/)
-- [http://explainshell.com/](http://explainshell.com/)
-- [http://cli.learncodethehardway.org/book/](http://cli.learncodethehardway.org/book/)
+You can find it online at: http://www.iterm2.com
+
+## Coursework
+
+Please complete the following 2 hour video course on terminal essentials:
+
+- https://tutsplus.com/course/how-to-be-a-terminal-pro/
