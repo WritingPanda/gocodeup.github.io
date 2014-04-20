@@ -10,7 +10,7 @@ Pretty cryptic stuff, right? You can actually write programs using the processor
 
 When you get into programming, you may hear terms like "high level language" or "low level language". Just remember that the closer you are to writing machine code using the processor instruction set, the lower the level of the language is. For example, Assembly language is a very low level language and it often has a one-to-one mapping with the processor instruction set. The lower the level, the more granular the control you have over how things work, which in turn offers opportunities to improve the performance of your code.
 
-As you get into high level languages like C#, Java, PHP, Ruby, JavaScript, etc., you will find that programming gets much easier. There are lots of layers below your code that provide helpers and support functionality. Occasionally, you may find a need to optimize a particular part of your code by stepping down to a lower level language, but for standard web applications this is almost never the case.
+As you get into high level languages like C#, Java, PHP, Ruby, JavaScript, etc., you will find that programming gets much easier. There are lots of layers below your code that provide helpers and support functionality. Occasionally, you may find a need to optimize a particular part of your code by stepping down to a lower level language, but for standard web applications this is almost never the case.  In most cases, your first task will be to get it working correctly and then worry about optimizing.
 
 ### Compiled and Interpreted Languages
 
