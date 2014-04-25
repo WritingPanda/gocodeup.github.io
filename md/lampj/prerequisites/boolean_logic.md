@@ -49,15 +49,15 @@ true  or true  = true
 
 It is also useful to know that when processing logical combinations you should try to order the conditions so that the computer can make a decision without considering all the options. For example:
 
-> If I win the lottery or it rains, then I will by a new car.
+> If I win the lottery or it rains, then I will buy a new car.
 
 Since we are using an `or` condition, we can see that any `true` value in the sequence will produce a `true` result. Therefore the condition most likely to be true should be placed first. So the previous example would be more efficient if it were re-worded to:
 
-> If it rains or I win the lottery, then I will by a new car.
+> If it rains or I win the lottery, then I will buy a new car.
 
 Unless you live in a place where it never rains, then the re-worded statement is a better choice. If we are combining conditions with the word `and`, we can also optimize the statement. Using the first example again:
 
-> If I win the lottery and it rains, then I will by a new car.
+> If I win the lottery and it rains, then I will buy a new car.
 
 In the case of `and`, you should put the condition most likely to be `false` first, because any `false` value in the statement will produce a `false` result and the computer won't even have to bother looking at the rest of the conditions. The prospect of a new car isn't looking too good, is it?
 
