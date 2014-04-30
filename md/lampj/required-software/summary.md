@@ -13,6 +13,8 @@ Please download and install the following software:
 ### Sublime 2 Text Editor
 
 [http://www.sublimetext.com/](http://www.sublimetext.com/)
+Sublime 2 is free to use, but it will prompt you after a couple of saves to purchase it.
+You can purchase it if you want to, but it is not necessary. The text editor will function either way.
 
 ### Sequel Pro Database Management Tool
 
